@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active:
+  port: ${PORT:8080}
+  application:
+    name: portfolio
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: ${SENDER_SERVICE_EMAIL}
+    password: ${PASSWORD}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+my:
+  email: ${MY_EMAIL}
