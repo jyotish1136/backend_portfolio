@@ -17,3 +17,5 @@ spring:
             enable: true
 my:
   email: ${MY_EMAIL}
+frontend:
+  URI: ${FRONTEND_URI}
